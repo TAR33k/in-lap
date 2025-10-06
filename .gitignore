@@ -1,0 +1,158 @@
+# ============================================
+# Visual Studio / Rider
+# ============================================
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.rsuser
+*.userprefs
+
+# ============================================
+# .NET / C# Build Artifacts
+# ============================================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# .NET Core / EF Core
+*.dbmdl
+*.jfm
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files (secrets, etc.)
+**/appsettings.local.json
+**/appsettings.*.local.json
+
+# ============================================
+# Visual Studio Code
+# ============================================
+.vscode/
+history/
+*.code-workspace
+
+# ============================================
+# JetBrains IDEs (WebStorm, Rider, etc.)
+# ============================================
+.idea/
+*.iml
+*.iws
+
+# ============================================
+# Angular / Node.js
+# ============================================
+node_modules/
+dist/
+tmp/
+temp/
+out-tsc/
+built/
+build/
+
+# Angular cache and coverage
+.angular/
+coverage/
+*.lcov
+
+# Dependencies
+# package-lock.json
+# yarn.lock
+
+# Environment files with secrets
+client/src/environments/environment.prod.ts
+client/src/environments/environment.local.ts
+
+# ============================================
+# Logs
+# ============================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# Docker
+# ============================================
+.docker/
+docker-compose.override.yml
+
+# ============================================
+# Environment Variables & Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.pfx
+*.p12
+
+# ============================================
+# Database Files
+# ============================================
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# ============================================
+# Local File Storage (Uploads)
+# ============================================
+backend/InLap.Api/uploads/
+backend/InLap.Api/file-store/
+file-store/
+uploads/
+
+PROJECT.md
+.project.md
+
+# ============================================
+# Testing
+# ============================================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ============================================
+# System Files
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# IDE Backup Files
+# ============================================
+*.swp
+*.bak
+*.tmp
+*~
+
+# ============================================
+# Misc
+# ============================================
+*.stackdump
+*.pid

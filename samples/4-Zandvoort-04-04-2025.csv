@@ -1,0 +1,1413 @@
+'+++++++++++++++++++++
+Practice
+'+++++++++++++++++++++
+
+Game:, "Assetto Corsa"
+Session:, "Practice"
+Track:, "zandvoort2023, formula_e"
+"
+Best lap, "novic (01:27.4110)"
+Lasted laps, "11"
+Host, "Unknown"
+
+
+
+Practice result
+'======================
+Pos,   Class, Team, Vehicle, Driver, Laps, Best lap, Gap
+"1",   "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "novic", "11", "01:27.4110", "-",
+"2",   "", "River Racing", "vrc_formula_lithium_2023_csp", "Mateusz Wasik", "7", "01:27.7220", "00:00.3110",
+"3",   "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Nahteyue", "10", "01:27.8800", "00:00.4690",
+"4",   "", "River Racing", "vrc_formula_lithium_2023_csp", "Josh Brookes", "10", "01:28.1410", "00:00.7300",
+"5",   "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Miguel Soto", "9", "01:28.5830", "00:01.1720",
+"6",   "", "", "vrc_formula_lithium_2023_csp", "Neeun_JTS3", "8", "01:29.0840", "00:01.6730",
+"7",   "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "Alfie Bevan", "0", "-", "-",
+"8",   "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Skyp Cooper", "0", "-", "-",
+"9",   "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Law Loki", "0", "-", "-",
+"10",   "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Shane Ross", "0", "-", "-",
+"11",   "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "Ali YARDIMCI", "0", "-", "-",
+"12",   "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "Tareek", "0", "-", "-",
+"13",   "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Cameron McIntyre", "0", "-", "-",
+"14",   "", "ASDA United", "vrc_formula_lithium_2023_csp", "cndelta", "0", "-", "-",
+"15",   "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "toguapotobo", "0", "-", "-",
+"16",   "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Genius", "0", "-", "-",
+"17",   "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "Darkzi", "0", "-", "-",
+"18",   "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Nick Chin", "0", "-", "-",
+"19",   "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Diego Domingo", "0", "-", "-",
+"20",   "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "potatolad165", "0", "-", "-",
+"21",   "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "bright", "0", "-", "-",
+"22",   "", "Delta Airline Korean Air Racing", "vrc_formula_lithium_2023_csp", "Alexander Sze", "0", "-", "-",
+"23",   "", "Delta Airlines Korean Air Racing", "vrc_formula_lithium_2023_csp", "Colin Kinzer", "0", "-", "-",
+"24",   "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Ks", "0", "-", "-",
+"25",   "", "Le Samurai Motorsport", "vrc_formula_lithium_2023_csp", "Viktor Nightingale", "0", "-", "-",
+"26",   "", "STREAMER", "vrc_formula_lithium_2023_csp", "Moskito1116", "0", "-", "-",
+
+Practice laps
+'======================
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"novic"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "02:16.8960", "70.7910", "37.2500", "28.8550",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.9860", "37.5740", "23.6890", "28.7230",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.4890", "37.2430", "23.7560", "27.4900",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5120", "37.2250", "23.7650", "27.5220",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "02:11.1180", "74.8990", "23.6300", "32.5890",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.8740", "37.2780", "24.3440", "27.2520",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.4110", "36.8670", "23.4090", "27.1350",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "02:22.1500", "91.1020", "23.5490", "27.4990",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.4170", "36.6710", "23.7290", "28.0170",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "03:05.6570", "36.7840", "23.7960", "125.0770",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.7850", "39.6210", "23.8900", "27.2740",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:50.7542", "48.7323", "24.9825", "37.0394"
+Best possible,,, "01:27.2150", "36.6710", "23.4090", "27.1350"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Mateusz Wasik"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "07:32.6960", "400.7210", "24.1430", "27.8320",  "F:ST - R:ST",     "3  (0s e.t. <>  0s gain) ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.1760", "37.4510", "23.5580", "27.1670",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.8760", "37.0880", "23.6440", "27.1440",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.7220", "37.0880", "23.5810", "27.0530",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "05:25.3390", "273.7020", "23.9480", "27.6890",  "F:ST - R:ST",     "3  (0s e.t. <>  0s gain) ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.8680", "37.1130", "23.4900", "27.2650",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "04:49.5400", "238.4240", "23.8600", "27.2560",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+Average,,,"03:22.7453", "151.6553", "23.7463", "27.3437"
+Best possible,,, "01:27.6310", "37.0880", "23.4900", "27.0530"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nahteyue"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "02:54.8480", "122.5320", "23.7820", "28.5340",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1110", "37.7300", "23.9410", "27.4400",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:58.5410", "66.6610", "23.9000", "27.9800",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.9490", "37.4420", "23.8960", "27.6110",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.8080", "38.3340", "24.4880", "27.9860",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.4830", "38.0120", "23.7470", "27.7240",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:51.4080", "60.5490", "23.6960", "27.1630",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.8800", "37.1920", "23.6480", "27.0400",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "03:14.0950", "36.7350", "23.6650", "133.6950",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:40.0050", "48.1240", "24.5610", "27.3200",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+Average,,,"01:54.5128", "52.3311", "23.9324", "38.2493"
+Best possible,,, "01:27.4230", "36.7350", "23.6480", "27.0400"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Josh Brookes"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "02:00.5070", "69.1800", "23.7950", "27.5320",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1900", "37.8540", "23.7640", "27.5720",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.0670", "38.5650", "23.8630", "27.6390",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.3770", "37.2160", "23.6120", "27.5490",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.1410", "37.0840", "23.6030", "27.4540",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6020", "37.4900", "23.7110", "27.4010",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.3260", "37.1960", "23.5440", "27.5860",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "02:53.1370", "121.8060", "23.7780", "27.5530",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:38.2720", "43.8270", "26.9270", "27.5180",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "04:28.3320", "217.2030", "23.6060", "27.5230",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:59.2951", "67.7421", "24.0203", "27.5327"
+Best possible,,, "01:28.0290", "37.0840", "23.5440", "27.4010"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Miguel Soto"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "02:41.5690", "108.8600", "25.0200", "27.6890",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5830", "37.6610", "23.6120", "27.3100",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.1280", "37.8750", "23.6330", "28.6200",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.0360", "37.4200", "25.0510", "29.5650",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0850", "37.7660", "23.9130", "27.4060",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "02:35.7360", "104.4620", "23.8960", "27.3780",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.0340", "37.2690", "23.9310", "30.8340",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "03:05.8220", "37.3490", "23.7870", "124.6860",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:35.8570", "41.2720", "24.4400", "30.1450",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+Average,,,"01:56.7612", "53.3260", "24.1426", "39.2926"
+Best possible,,, "01:28.1910", "37.2690", "23.6120", "27.3100"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Neeun_JTS3"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "02:43.2750", "103.5410", "24.6070", "35.1270",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "02:06.6790", "73.2150", "24.7950", "28.6690",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "03:18.1180", "145.3100", "24.3230", "28.4850",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.8550", "38.2330", "24.1920", "29.4300",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:39.0050", "44.3850", "25.0200", "29.6000",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:59.3450", "67.5190", "24.1380", "27.6880",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.6400", "38.8460", "23.8780", "28.9160",  "F:ST - R:ST",     "2  (0s e.t. <>  0s gain) ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0840", "37.4830", "24.0660", "27.5350",  "F:ST - R:ST",     "0 ",  
+Average,,,"02:02.3752", "68.5665", "24.3774", "29.4313"
+Best possible,,, "01:28.8960", "37.4830", "23.8780", "27.5350"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alfie Bevan"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Skyp Cooper"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Law Loki"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Shane Ross"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ali YARDIMCI"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Tareek"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Cameron McIntyre"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"cndelta"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"toguapotobo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Genius"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Darkzi"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nick Chin"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Diego Domingo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"potatolad165"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"bright"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alexander Sze"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Colin Kinzer"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ks"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Viktor Nightingale"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Moskito1116"
+No laps for this driver
+
+
+Practice best laps
+'======================
+'------------------------
+Overall top (20)
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "01:27.4110", ""
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.7220", "0.311"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.8680", "0.457"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.8760", "0.465"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.8800", "0.469"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.1410", "0.73"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.1760", "0.765"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.3260", "0.915"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.3770", "0.966"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.4170", "1.006"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.4890", "1.078"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.5120", "1.101"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:28.5830", "1.172"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.6020", "1.191"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.8740", "1.463"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:28.9490", "1.538"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "01:29.0840", "1.673"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:29.0850", "1.674"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:29.1110", "1.7"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:29.1900", "1.779"
+
+
+'------------------------
+Per driver
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "01:27.4110", ""
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.7220", "0.311"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.8800", "0.469"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.1410", "0.73"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:28.5830", "1.172"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "01:29.0840", "1.673"
+
+
+Practice consistency
+'======================
+Driver, Vehicle, Consistency,
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "99.65%  0.304",
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "99.12%  0.7714",
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "98.84%  1.0235",
+"novic", "vrc_formula_lithium_2023_csp", "98.16%  1.6044",
+"Nahteyue", "vrc_formula_lithium_2023_csp", "98.06%  1.7078",
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "-",
+"Alfie Bevan", "vrc_formula_lithium_2023_csp", "-",
+"Skyp Cooper", "vrc_formula_lithium_2023_csp", "-",
+"Law Loki", "vrc_formula_lithium_2023_csp", "-",
+"Shane Ross", "vrc_formula_lithium_2023_csp", "-",
+"Ali YARDIMCI", "vrc_formula_lithium_2023_csp", "-",
+"Tareek", "vrc_formula_lithium_2023_csp", "-",
+"Cameron McIntyre", "vrc_formula_lithium_2023_csp", "-",
+"cndelta", "vrc_formula_lithium_2023_csp", "-",
+"toguapotobo", "vrc_formula_lithium_2023_csp", "-",
+"Genius", "vrc_formula_lithium_2023_csp", "-",
+"Darkzi", "vrc_formula_lithium_2023_csp", "-",
+"Nick Chin", "vrc_formula_lithium_2023_csp", "-",
+"Diego Domingo", "vrc_formula_lithium_2023_csp", "-",
+"potatolad165", "vrc_formula_lithium_2023_csp", "-",
+"bright", "vrc_formula_lithium_2023_csp", "-",
+"Alexander Sze", "vrc_formula_lithium_2023_csp", "-",
+"Colin Kinzer", "vrc_formula_lithium_2023_csp", "-",
+"Ks", "vrc_formula_lithium_2023_csp", "-",
+"Viktor Nightingale", "vrc_formula_lithium_2023_csp", "-",
+"Moskito1116", "vrc_formula_lithium_2023_csp", "-",
+
+
+
+
+Practice sectors
+'======================
+'------------------------
+Sector 1
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "36.6710", "-"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "36.7350", "0.0640"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "37.0840", "0.4130"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "37.0880", "0.4170"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "37.2690", "0.5980"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "37.4830", "0.8120"
+'------------------------
+Sector 2
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "23.4090", "-"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "23.4900", "0.0810"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "23.5440", "0.1350"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "23.6120", "0.2030"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "23.6480", "0.2390"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "23.8780", "0.4690"
+'------------------------
+Sector 3
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Nahteyue", "vrc_formula_lithium_2023_csp", "27.0400", "-"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "27.0530", "0.0130"
+"novic", "vrc_formula_lithium_2023_csp", "27.1350", "0.0950"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "27.3100", "0.2700"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "27.4010", "0.3610"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "27.5350", "0.4950"
+
+
+Practice incidents
+'======================
+Date, Incident, Worth reviewing
+"", "Mateusz Wasik reported contact with another vehicle Nahteyue. Impact speed: 48.23091",
+"", "Nahteyue reported contact with another vehicle Mateusz Wasik. Impact speed: 47.14125",
+"", "Neeun_JTS3 reported contact with environment. Impact speed: 44.92277",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 94.5932",
+"", "novic reported contact with environment. Impact speed: 65.71202",
+"", "Miguel Soto reported contact with environment. Impact speed: 9.5489025",
+"", "Neeun_JTS3 reported contact with environment. Impact speed: 41.190903",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 70.175674",
+"", "Josh Brookes reported contact with environment. Impact speed: 103.77284",
+"", "novic reported contact with environment. Impact speed: 91.69047",
+"", "novic reported contact with environment. Impact speed: 27.654865",
+"", "Miguel Soto reported contact with environment. Impact speed: 21.569921",
+"", "novic reported contact with environment. Impact speed: 126.91402",
+"", "Josh Brookes reported contact with another vehicle Mateusz Wasik. Impact speed: 10.728129",
+"", "Mateusz Wasik reported contact with another vehicle Josh Brookes. Impact speed: 10.797128",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 100.309425",
+"", "Josh Brookes reported contact with another vehicle Mateusz Wasik. Impact speed: 7.090086",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 15.116317",
+"", "Nahteyue reported contact with environment. Impact speed: 25.742014",
+"", "Neeun_JTS3 reported contact with environment. Impact speed: 158.2934",
+"", "Nahteyue reported contact with another vehicle Mateusz Wasik. Impact speed: 197.92365",
+"", "Nahteyue reported contact with environment. Impact speed: 107.008545",
+"", "Mateusz Wasik reported contact with another vehicle Nahteyue. Impact speed: 196.70126",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 147.753",
+
+Practice cuts
+'======================
+Date, Lap e.t., Lap, Driver, Cut Time, Time skipped
+"", "00:00", "2", "novic", "", ""
+"", "00:00", "5", "novic", "", ""
+"", "00:00", "8", "novic", "", ""
+"", "00:00", "10", "novic", "", ""
+"", "00:00", "1", "Mateusz Wasik", "", ""
+"", "00:00", "1", "Mateusz Wasik", "", ""
+"", "00:00", "1", "Mateusz Wasik", "", ""
+"", "00:00", "5", "Mateusz Wasik", "", ""
+"", "00:00", "5", "Mateusz Wasik", "", ""
+"", "00:00", "5", "Mateusz Wasik", "", ""
+"", "00:00", "6", "Mateusz Wasik", "", ""
+"", "00:00", "7", "Mateusz Wasik", "", ""
+"", "00:00", "9", "Nahteyue", "", ""
+"", "00:00", "10", "Nahteyue", "", ""
+"", "00:00", "8", "Josh Brookes", "", ""
+"", "00:00", "9", "Josh Brookes", "", ""
+"", "00:00", "4", "Miguel Soto", "", ""
+"", "00:00", "6", "Miguel Soto", "", ""
+"", "00:00", "7", "Miguel Soto", "", ""
+"", "00:00", "8", "Miguel Soto", "", ""
+"", "00:00", "9", "Miguel Soto", "", ""
+"", "00:00", "2", "Neeun_JTS3", "", ""
+"", "00:00", "3", "Neeun_JTS3", "", ""
+"", "00:00", "4", "Neeun_JTS3", "", ""
+"", "00:00", "5", "Neeun_JTS3", "", ""
+"", "00:00", "7", "Neeun_JTS3", "", ""
+"", "00:00", "7", "Neeun_JTS3", "", ""
+
+
+
+
+
+
+'+++++++++++++++++++++
+Qualify
+'+++++++++++++++++++++
+
+Game:, "Assetto Corsa"
+Session:, "Qualify"
+Track:, "zandvoort2023, formula_e"
+Pole, "novic(01:26.8700)"
+Lasted laps, "7"
+Host, "Unknown"
+
+
+
+Qualify result
+'======================
+Pos,   Class, Team, Vehicle, Driver, Laps, Best lap, Gap
+"1",   "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "novic", "4", "01:26.8700", "-",
+"2",   "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Nahteyue", "7", "01:27.4720", "00:00.6020",
+"3",   "", "River Racing", "vrc_formula_lithium_2023_csp", "Mateusz Wasik", "6", "01:27.5720", "00:00.7020",
+"4",   "", "River Racing", "vrc_formula_lithium_2023_csp", "Josh Brookes", "6", "01:27.6050", "00:00.7350",
+"5",   "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Miguel Soto", "5", "01:28.1290", "00:01.2590",
+"6",   "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "Alfie Bevan", "0", "-", "-",
+"7",   "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Skyp Cooper", "0", "-", "-",
+"8",   "", "", "vrc_formula_lithium_2023_csp", "Neeun_JTS3", "0", "-", "-",
+"9",   "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Law Loki", "0", "-", "-",
+"10",   "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Shane Ross", "0", "-", "-",
+"11",   "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "Ali YARDIMCI", "0", "-", "-",
+"12",   "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "Tareek", "0", "-", "-",
+"13",   "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Cameron McIntyre", "0", "-", "-",
+"14",   "", "ASDA United", "vrc_formula_lithium_2023_csp", "cndelta", "0", "-", "-",
+"15",   "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "toguapotobo", "0", "-", "-",
+"16",   "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Genius", "0", "-", "-",
+"17",   "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "Darkzi", "0", "-", "-",
+"18",   "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Nick Chin", "0", "-", "-",
+"19",   "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Diego Domingo", "0", "-", "-",
+"20",   "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "potatolad165", "0", "-", "-",
+"21",   "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "bright", "0", "-", "-",
+"22",   "", "Delta Airline Korean Air Racing", "vrc_formula_lithium_2023_csp", "Alexander Sze", "0", "-", "-",
+"23",   "", "Delta Airlines Korean Air Racing", "vrc_formula_lithium_2023_csp", "Colin Kinzer", "0", "-", "-",
+"24",   "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Ks", "0", "-", "-",
+"25",   "", "Le Samurai Motorsport", "vrc_formula_lithium_2023_csp", "Viktor Nightingale", "0", "-", "-",
+"26",   "", "STREAMER", "vrc_formula_lithium_2023_csp", "Moskito1116", "0", "-", "-",
+
+Qualify laps
+'======================
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"novic"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:36.9540", "45.2300", "24.1970", "27.5270",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.1820", "36.7600", "23.4900", "26.9320",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:26.8700", "36.4980", "23.4720", "26.9000",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.4790", "36.9660", "24.0210", "29.4920",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:30.3713", "38.8635", "23.7950", "27.7128"
+Best possible,,, "01:26.8700", "36.4980", "23.4720", "26.9000"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nahteyue"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:34.9280", "44.2990", "23.6210", "27.0080",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.2660", "36.7450", "23.6750", "31.8460",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.4720", "36.7520", "23.5990", "27.1210",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.6650", "37.0040", "23.5440", "27.1170",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.6820", "37.0200", "26.3830", "27.2790",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "02:11.3070", "79.8090", "24.3940", "27.1040",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:35.2370", "36.9260", "27.5770", "30.7340",  "F:ST - R:ST",     "2  (0s e.t. <>  0s gain) ",  
+Average,,,"01:37.0796", "44.0793", "24.6847", "28.3156"
+Best possible,,, "01:27.2970", "36.7450", "23.5440", "27.0080"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Mateusz Wasik"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:37.4480", "41.9630", "23.5540", "31.9310",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.3250", "41.4120", "23.8410", "27.0720",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.1190", "36.9850", "23.6160", "27.5180",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "02:25.0790", "94.3110", "23.5260", "27.2420",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.0670", "37.0870", "23.5480", "27.4320",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.5720", "36.9290", "23.6710", "26.9720",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:39.7683", "48.1145", "23.6260", "28.0278"
+Best possible,,, "01:27.4270", "36.9290", "23.5260", "26.9720"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Josh Brookes"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:49.7200", "58.2630", "23.7910", "27.6660",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.0170", "37.1260", "23.6930", "27.1980",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "02:20.6200", "89.2570", "23.7470", "27.6160",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.7280", "36.9950", "23.6660", "27.0670",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.7530", "36.9520", "23.6880", "27.1130",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.6050", "37.0250", "23.4820", "27.0980",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:40.2405", "49.2697", "23.6778", "27.2930"
+Best possible,,, "01:27.5010", "36.9520", "23.4820", "27.0670"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Miguel Soto"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:46.7110", "53.4090", "25.8340", "27.4680",  "F:ST - R:ST",     "2  (0s e.t. <>  0s gain) ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "02:24.8470", "93.4700", "24.0750", "27.3020",  "F:ST - R:ST",     "2  (0s e.t. <>  0s gain) ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.9920", "37.4360", "25.3400", "27.2160",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.1290", "37.1710", "23.5980", "27.3600",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.2010", "37.4720", "23.7970", "26.9320",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:43.5760", "51.7916", "24.5288", "27.2556"
+Best possible,,, "01:27.7010", "37.1710", "23.5980", "26.9320"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alfie Bevan"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Skyp Cooper"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Neeun_JTS3"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Law Loki"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Shane Ross"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ali YARDIMCI"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Tareek"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Cameron McIntyre"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"cndelta"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"toguapotobo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Genius"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Darkzi"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nick Chin"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Diego Domingo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"potatolad165"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"bright"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alexander Sze"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Colin Kinzer"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ks"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Viktor Nightingale"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Moskito1116"
+No laps for this driver
+
+
+Qualify best laps
+'======================
+'------------------------
+Overall top (20)
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "01:26.8700", ""
+"novic", "vrc_formula_lithium_2023_csp", "01:27.1820", "0.312"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.4720", "0.602"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.5720", "0.702"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.6050", "0.735"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.6650", "0.795"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.7280", "0.858"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.7530", "0.883"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.0170", "1.147"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.0670", "1.197"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.1190", "1.249"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:28.1290", "1.259"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:28.2010", "1.331"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:29.9920", "3.122"
+"novic", "vrc_formula_lithium_2023_csp", "01:30.4790", "3.609"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:30.6820", "3.812"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:32.2660", "5.396"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:32.3250", "5.455"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:34.9280", "8.058"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:35.2370", "8.367"
+
+
+'------------------------
+Per driver
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "01:26.8700", ""
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.4720", "0.602"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.5720", "0.702"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.6050", "0.735"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:28.1290", "1.259"
+
+
+Qualify consistency
+'======================
+Driver, Vehicle, Consistency,
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "99.74%  0.2277",
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "98.90%  0.9675",
+"Nahteyue", "vrc_formula_lithium_2023_csp", "98.05%  1.7015",
+"novic", "vrc_formula_lithium_2023_csp", "97.74%  1.9605",
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "96.97%  2.65",
+"Alfie Bevan", "vrc_formula_lithium_2023_csp", "-",
+"Skyp Cooper", "vrc_formula_lithium_2023_csp", "-",
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "-",
+"Law Loki", "vrc_formula_lithium_2023_csp", "-",
+"Shane Ross", "vrc_formula_lithium_2023_csp", "-",
+"Ali YARDIMCI", "vrc_formula_lithium_2023_csp", "-",
+"Tareek", "vrc_formula_lithium_2023_csp", "-",
+"Cameron McIntyre", "vrc_formula_lithium_2023_csp", "-",
+"cndelta", "vrc_formula_lithium_2023_csp", "-",
+"toguapotobo", "vrc_formula_lithium_2023_csp", "-",
+"Genius", "vrc_formula_lithium_2023_csp", "-",
+"Darkzi", "vrc_formula_lithium_2023_csp", "-",
+"Nick Chin", "vrc_formula_lithium_2023_csp", "-",
+"Diego Domingo", "vrc_formula_lithium_2023_csp", "-",
+"potatolad165", "vrc_formula_lithium_2023_csp", "-",
+"bright", "vrc_formula_lithium_2023_csp", "-",
+"Alexander Sze", "vrc_formula_lithium_2023_csp", "-",
+"Colin Kinzer", "vrc_formula_lithium_2023_csp", "-",
+"Ks", "vrc_formula_lithium_2023_csp", "-",
+"Viktor Nightingale", "vrc_formula_lithium_2023_csp", "-",
+"Moskito1116", "vrc_formula_lithium_2023_csp", "-",
+
+
+
+
+Qualify sectors
+'======================
+'------------------------
+Sector 1
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "36.4980", "-"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "36.7450", "0.2470"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "36.9290", "0.4310"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "36.9520", "0.4540"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "37.1710", "0.6730"
+'------------------------
+Sector 2
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "23.4720", "-"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "23.4820", "0.0100"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "23.5260", "0.0540"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "23.5440", "0.0720"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "23.5980", "0.1260"
+'------------------------
+Sector 3
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "26.9000", "-"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "26.9320", "0.0320"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "26.9720", "0.0720"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "27.0080", "0.1080"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "27.0670", "0.1670"
+
+
+Qualify incidents
+'======================
+Date, Incident, Worth reviewing
+"", "Mateusz Wasik reported contact with environment. Impact speed: 26.728054",
+"", "Miguel Soto reported contact with environment. Impact speed: 48.93644",
+"", "Miguel Soto reported contact with environment. Impact speed: 33.246483",
+"", "Miguel Soto reported contact with environment. Impact speed: 96.53652",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 115.270035",
+
+Qualify cuts
+'======================
+Date, Lap e.t., Lap, Driver, Cut Time, Time skipped
+"", "00:00", "2", "Nahteyue", "", ""
+"", "00:00", "6", "Nahteyue", "", ""
+"", "00:00", "7", "Nahteyue", "", ""
+"", "00:00", "7", "Nahteyue", "", ""
+"", "00:00", "5", "Mateusz Wasik", "", ""
+"", "00:00", "1", "Miguel Soto", "", ""
+"", "00:00", "1", "Miguel Soto", "", ""
+"", "00:00", "2", "Miguel Soto", "", ""
+"", "00:00", "2", "Miguel Soto", "", ""
+
+
+
+
+
+
+'+++++++++++++++++++++
+Race 1
+'+++++++++++++++++++++
+
+Game:, "Assetto Corsa"
+Session:, "Race"
+Track:, "zandvoort2023, formula_e"
+Winner, "Mateusz Wasik"
+Led most laps, "Mateusz Wasik"
+Best lap, "Nahteyue (01:27.5750)"
+Lasted laps, "12"
+Host, "Unknown"
+
+
+Race 1 result
+'======================
+Pos,    Class, Team, Vehicle, Driver, Laps, Time/Retired, Best lap, Consistency, Led, Pits,
+"1",  "", "River Racing", "vrc_formula_lithium_2023_csp", "Mateusz Wasik", "12", "    17:49.9440", "01:27.8730", "99.00%", "12", "0", 
+"2",  "", "River Racing", "vrc_formula_lithium_2023_csp", "Josh Brookes", "12", "  '+00:03.4830", "01:28.2730", "99.24%", "0", "0", 
+"3",  "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "novic", "12", "  '+00:03.6080", "01:28.2430", "99.11%", "0", "0", 
+"4",  "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Miguel Soto", "12", "  '+00:14.8540", "01:28.8540", "98.93%", "0", "0", 
+"5",  "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Nahteyue", "12", "  '+00:14.9550", "01:27.5750", "97.89%", "0", "0", 
+"6",  "", "", "vrc_formula_lithium_2023_csp", "Neeun_JTS3", "12", "  '+00:36.6370", "01:29.1080", "98.04%", "0", "0", 
+"7",  "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "Alfie Bevan", "0", " DNF", "-", "-", "0", "0", 
+"8",  "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Skyp Cooper", "0", " DNF", "-", "-", "0", "0", 
+"9",  "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Law Loki", "0", " DNF", "-", "-", "0", "0", 
+"10",  "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Shane Ross", "0", " DNF", "-", "-", "0", "0", 
+"11",  "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "Ali YARDIMCI", "0", " DNF", "-", "-", "0", "0", 
+"12",  "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "Tareek", "0", " DNF", "-", "-", "0", "0", 
+"13",  "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Cameron McIntyre", "0", " DNF", "-", "-", "0", "0", 
+"14",  "", "ASDA United", "vrc_formula_lithium_2023_csp", "cndelta", "0", " DNF", "-", "-", "0", "0", 
+"15",  "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "toguapotobo", "0", " DNF", "-", "-", "0", "0", 
+"16",  "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Genius", "0", " DNF", "-", "-", "0", "0", 
+"17",  "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "Darkzi", "0", " DNF", "-", "-", "0", "0", 
+"18",  "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Nick Chin", "0", " DNF", "-", "-", "0", "0", 
+"19",  "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Diego Domingo", "0", " DNF", "-", "-", "0", "0", 
+"20",  "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "potatolad165", "0", " DNF", "-", "-", "0", "0", 
+"21",  "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "bright", "0", " DNF", "-", "-", "0", "0", 
+"22",  "", "Delta Airline Korean Air Racing", "vrc_formula_lithium_2023_csp", "Alexander Sze", "0", " DNF", "-", "-", "0", "0", 
+"23",  "", "Delta Airlines Korean Air Racing", "vrc_formula_lithium_2023_csp", "Colin Kinzer", "0", " DNF", "-", "-", "0", "0", 
+"24",  "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Ks", "0", " DNF", "-", "-", "0", "0", 
+"25",  "", "Le Samurai Motorsport", "vrc_formula_lithium_2023_csp", "Viktor Nightingale", "0", " DNF", "-", "-", "0", "0", 
+"26",  "", "STREAMER", "vrc_formula_lithium_2023_csp", "Moskito1116", "0", " DNF", "-", "-", "0", "0", 
+
+
+Race 1 laps
+'======================
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Mateusz Wasik"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:34.5830", "43.2570", "23.6160", "27.7100",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6890", "37.2940", "23.6210", "27.7740",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.0370", "37.0980", "23.6510", "27.2880",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6530", "37.7350", "23.6110", "27.3070",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6810", "37.8260", "23.6890", "27.1660",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.8730", "37.0450", "23.6930", "27.1350",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.1900", "37.4350", "23.6660", "27.0890",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6750", "37.5950", "23.8860", "27.1940",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.7500", "37.4680", "23.8370", "27.4450",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6820", "37.6880", "23.7520", "27.2420",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.3540", "37.9730", "23.9500", "27.4310",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.8140", "38.1760", "24.0710", "27.5670",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:29.1651", "38.0492", "23.7536", "27.3623"
+Best possible,,, "01:27.7450", "37.0450", "23.6110", "27.0890"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Josh Brookes"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:35.7620", "43.7870", "23.9130", "28.0620",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.8600", "37.4690", "23.9180", "27.4730",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.9600", "37.4300", "23.8600", "27.6700",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.8120", "38.7590", "23.7520", "27.3010",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.2820", "37.3650", "23.5800", "27.3370",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.2730", "37.2700", "23.5840", "27.4190",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.4530", "36.8380", "24.2190", "27.3960",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.4030", "37.3020", "23.7730", "27.3280",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5630", "37.3660", "23.6930", "27.5040",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.9560", "37.8990", "23.5030", "27.5540",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.9910", "37.6110", "24.4700", "27.9100",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1350", "37.7540", "23.6390", "27.7420",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:29.4541", "38.0708", "23.8253", "27.5580"
+Best possible,,, "01:27.6420", "36.8380", "23.5030", "27.3010"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"novic"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:35.8070", "44.4130", "23.6660", "27.7280",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0760", "37.8880", "23.6210", "27.5670",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.7490", "37.3990", "23.9710", "27.3790",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.0490", "39.0640", "23.7330", "27.2520",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5430", "37.6800", "23.6430", "27.2200",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.3050", "37.2930", "23.7780", "27.2340",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.3250", "36.7420", "24.0080", "27.5750",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.2430", "37.2040", "23.6390", "27.4000",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5650", "37.3560", "23.7680", "27.4410",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.9320", "37.8610", "23.8180", "27.2530",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.7570", "37.4570", "24.3460", "27.9540",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.2660", "38.0830", "23.8770", "27.3060",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:29.4680", "38.2033", "23.8223", "27.4424"
+Best possible,,, "01:27.5830", "36.7420", "23.6210", "27.2200"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Miguel Soto"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:38.0240", "46.2340", "24.0030", "27.7870",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.7370", "38.1310", "24.0030", "27.6030",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0020", "37.5720", "23.9710", "27.4590",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.8540", "37.5360", "23.7320", "27.5860",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.7790", "38.4030", "23.9930", "27.3830",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1910", "37.8820", "23.8450", "27.4640",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.6950", "38.0570", "23.9410", "27.6970",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.8500", "37.9220", "23.9540", "29.9740",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0220", "37.6540", "23.8730", "27.4950",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.5310", "37.9070", "23.7830", "27.8410",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.2590", "38.1630", "24.4480", "27.6480",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.8970", "37.9230", "24.1110", "27.8630",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:30.4034", "38.6153", "23.9714", "27.8167"
+Best possible,,, "01:28.6510", "37.5360", "23.7320", "27.3830"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nahteyue"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:43.1090", "51.4950", "24.4880", "27.1260",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6750", "36.9970", "24.4120", "27.2660",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.5750", "37.0860", "23.5160", "26.9730",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.9680", "37.0600", "23.7380", "27.1700",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.2840", "37.4600", "23.7160", "27.1080",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1990", "38.2760", "23.9040", "27.0190",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.5220", "38.3170", "23.9080", "27.2970",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.7430", "38.3740", "23.8990", "30.4700",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5070", "37.5800", "23.7520", "27.1750",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.9640", "38.0490", "24.3000", "28.6150",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0780", "37.6350", "24.1470", "27.2960",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.3140", "37.7390", "24.2100", "27.3650",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:30.4115", "38.8390", "23.9992", "27.5733"
+Best possible,,, "01:27.4860", "36.9970", "23.5160", "26.9730"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Neeun_JTS3"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:40.4900", "47.9030", "24.5980", "27.9890",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.7030", "38.0860", "26.4960", "28.1210",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.2970", "37.2820", "24.4220", "28.5930",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.7390", "37.8900", "24.0380", "27.8110",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1080", "37.6370", "23.8960", "27.5750",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.7910", "37.8700", "24.1060", "27.8150",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.1490", "37.9990", "24.7990", "28.3510",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.9530", "38.2940", "24.6150", "28.0440",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.6140", "38.7970", "24.0160", "27.8010",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.1710", "38.4460", "25.6990", "28.0260",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:39.3710", "46.8340", "24.5570", "27.9800",  "F:ST - R:ST",     "1  (0s e.t. <>  0s gain) ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.2540", "38.0460", "24.0750", "28.1330",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:32.2200", "39.5903", "24.6098", "28.0199"
+Best possible,,, "01:28.7530", "37.2820", "23.8960", "27.5750"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alfie Bevan"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Skyp Cooper"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Law Loki"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Shane Ross"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ali YARDIMCI"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Tareek"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Cameron McIntyre"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"cndelta"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"toguapotobo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Genius"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Darkzi"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nick Chin"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Diego Domingo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"potatolad165"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"bright"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alexander Sze"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Colin Kinzer"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ks"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Viktor Nightingale"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Moskito1116"
+No laps for this driver
+
+
+Race 1 best laps
+'======================
+'------------------------
+Overall top (20)
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.5750", ""
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.8730", "0.298"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.9680", "0.393"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.0370", "0.462"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.1900", "0.615"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.2430", "0.668"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.2730", "0.698"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.2820", "0.707"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:28.2840", "0.709"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.3050", "0.73"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.3250", "0.75"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.4030", "0.828"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.4530", "0.878"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:28.5070", "0.932"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.5430", "0.968"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.5630", "0.988"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.5650", "0.99"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.6530", "1.078"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.6750", "1.1"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:28.6750", "1.1"
+
+
+'------------------------
+Per driver
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Nahteyue", "vrc_formula_lithium_2023_csp", "01:27.5750", ""
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.8730", "0.298"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.2430", "0.668"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.2730", "0.698"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:28.8540", "1.279"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "01:29.1080", "1.533"
+
+
+Race 1 consistency
+'======================
+Driver, Vehicle, Consistency,
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "99.24%  0.6685",
+"novic", "vrc_formula_lithium_2023_csp", "99.11%  0.7861",
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "99.00%  0.8795",
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "98.93%  0.9489",
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "98.04%  1.7443",
+"Nahteyue", "vrc_formula_lithium_2023_csp", "97.89%  1.8504",
+"Alfie Bevan", "vrc_formula_lithium_2023_csp", "-",
+"Skyp Cooper", "vrc_formula_lithium_2023_csp", "-",
+"Law Loki", "vrc_formula_lithium_2023_csp", "-",
+"Shane Ross", "vrc_formula_lithium_2023_csp", "-",
+"Ali YARDIMCI", "vrc_formula_lithium_2023_csp", "-",
+"Tareek", "vrc_formula_lithium_2023_csp", "-",
+"Cameron McIntyre", "vrc_formula_lithium_2023_csp", "-",
+"cndelta", "vrc_formula_lithium_2023_csp", "-",
+"toguapotobo", "vrc_formula_lithium_2023_csp", "-",
+"Genius", "vrc_formula_lithium_2023_csp", "-",
+"Darkzi", "vrc_formula_lithium_2023_csp", "-",
+"Nick Chin", "vrc_formula_lithium_2023_csp", "-",
+"Diego Domingo", "vrc_formula_lithium_2023_csp", "-",
+"potatolad165", "vrc_formula_lithium_2023_csp", "-",
+"bright", "vrc_formula_lithium_2023_csp", "-",
+"Alexander Sze", "vrc_formula_lithium_2023_csp", "-",
+"Colin Kinzer", "vrc_formula_lithium_2023_csp", "-",
+"Ks", "vrc_formula_lithium_2023_csp", "-",
+"Viktor Nightingale", "vrc_formula_lithium_2023_csp", "-",
+"Moskito1116", "vrc_formula_lithium_2023_csp", "-",
+
+
+
+
+Race 1 sectors
+'======================
+'------------------------
+Sector 1
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "36.7420", "-"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "36.8380", "0.0960"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "36.9970", "0.2550"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "37.0450", "0.3030"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "37.2820", "0.5400"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "37.5360", "0.7940"
+'------------------------
+Sector 2
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "23.5030", "-"
+"Nahteyue", "vrc_formula_lithium_2023_csp", "23.5160", "0.0130"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "23.6110", "0.1080"
+"novic", "vrc_formula_lithium_2023_csp", "23.6210", "0.1180"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "23.7320", "0.2290"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "23.8960", "0.3930"
+'------------------------
+Sector 3
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Nahteyue", "vrc_formula_lithium_2023_csp", "26.9730", "-"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "27.0890", "0.1160"
+"novic", "vrc_formula_lithium_2023_csp", "27.2200", "0.2470"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "27.3010", "0.3280"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "27.3830", "0.4100"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "27.5750", "0.6020"
+
+
+Race 1 incidents
+'======================
+Date, Incident, Worth reviewing
+"", "novic reported contact with another vehicle Mateusz Wasik. Impact speed: 10.955084",
+"", "Mateusz Wasik reported contact with another vehicle novic. Impact speed: 6.409025",
+"", "novic reported contact with another vehicle Mateusz Wasik. Impact speed: 7.2387714",
+"", "Josh Brookes reported contact with another vehicle novic. Impact speed: 15.045168",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 75.27877",
+"", "Nahteyue reported contact with another vehicle Miguel Soto. Impact speed: 10.866161",
+"", "Miguel Soto reported contact with another vehicle Nahteyue. Impact speed: 31.310825",
+"", "Nahteyue reported contact with another vehicle Miguel Soto. Impact speed: 0.19718108",
+"", "Miguel Soto reported contact with another vehicle Nahteyue. Impact speed: 49.30712",
+"", "Nahteyue reported contact with another vehicle Miguel Soto. Impact speed: 59.926987",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 25.139387",
+
+Race 1 cuts
+'======================
+Date, Lap e.t., Lap, Driver, Cut Time, Time skipped
+"", "00:00", "6", "novic", "", ""
+"", "00:00", "2", "Miguel Soto", "", ""
+"", "00:00", "1", "Nahteyue", "", ""
+"", "00:00", "11", "Neeun_JTS3", "", ""
+
+
+
+
+
+
+'+++++++++++++++++++++
+Race 2
+'+++++++++++++++++++++
+
+Game:, "Assetto Corsa"
+Session:, "Race"
+Track:, "zandvoort2023, formula_e"
+Winner, "novic"
+Led most laps, "novic"
+Best lap, "novic (01:26.9780)"
+Lasted laps, "12"
+Host, "Unknown"
+
+
+Race 2 result
+'======================
+Pos,    Class, Team, Vehicle, Driver, Laps, Time/Retired, Best lap, Consistency, Led, Pits,
+"1",  "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "novic", "12", "    17:37.3500", "01:26.9780", "99.08%", "12", "0", 
+"2",  "", "River Racing", "vrc_formula_lithium_2023_csp", "Josh Brookes", "12", "  '+00:11.9120", "01:27.8620", "99.08%", "0", "0", 
+"3",  "", "River Racing", "vrc_formula_lithium_2023_csp", "Mateusz Wasik", "12", "  '+00:17.5320", "01:27.8160", "98.29%", "0", "0", 
+"4",  "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Miguel Soto", "12", "  '+00:41.6670", "01:28.7460", "98.39%", "0", "0", 
+"5",  "", "", "vrc_formula_lithium_2023_csp", "Neeun_JTS3", "12", "  '+01:31.7200", "01:30.7220", "96.13%", "0", "0", 
+"6",  "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "Alfie Bevan", "0", " DNF", "-", "-", "0", "0", 
+"7",  "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Skyp Cooper", "0", " DNF", "-", "-", "0", "0", 
+"8",  "", "Celestia Motorsport", "vrc_formula_lithium_2023_csp", "Law Loki", "0", " DNF", "-", "-", "0", "0", 
+"9",  "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Shane Ross", "0", " DNF", "-", "-", "0", "0", 
+"10",  "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "Ali YARDIMCI", "0", " DNF", "-", "-", "0", "0", 
+"11",  "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Nahteyue", "0", " DNF", "-", "-", "0", "0", 
+"12",  "", "Bugatti Rimac", "vrc_formula_lithium_2023_csp", "Tareek", "0", " DNF", "-", "-", "0", "0", 
+"13",  "", "Holden Racing Team", "vrc_formula_lithium_2023_csp", "Cameron McIntyre", "0", " DNF", "-", "-", "0", "0", 
+"14",  "", "ASDA United", "vrc_formula_lithium_2023_csp", "cndelta", "0", " DNF", "-", "-", "0", "0", 
+"15",  "", "Polaris Motorsport", "vrc_formula_lithium_2023_csp", "toguapotobo", "0", " DNF", "-", "-", "0", "0", 
+"16",  "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Genius", "0", " DNF", "-", "-", "0", "0", 
+"17",  "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "Darkzi", "0", " DNF", "-", "-", "0", "0", 
+"18",  "", "Penaldo Penalty Motorsports", "vrc_formula_lithium_2023_csp", "Nick Chin", "0", " DNF", "-", "-", "0", "0", 
+"19",  "", "Silver Racing Club", "vrc_formula_lithium_2023_csp", "Diego Domingo", "0", " DNF", "-", "-", "0", "0", 
+"20",  "", "Leftest Turn Right", "vrc_formula_lithium_2023_csp", "potatolad165", "0", " DNF", "-", "-", "0", "0", 
+"21",  "", "ASML McLaren Racing", "vrc_formula_lithium_2023_csp", "bright", "0", " DNF", "-", "-", "0", "0", 
+"22",  "", "Delta Airline Korean Air Racing", "vrc_formula_lithium_2023_csp", "Alexander Sze", "0", " DNF", "-", "-", "0", "0", 
+"23",  "", "Delta Airlines Korean Air Racing", "vrc_formula_lithium_2023_csp", "Colin Kinzer", "0", " DNF", "-", "-", "0", "0", 
+"24",  "", "Gabagool Racing", "vrc_formula_lithium_2023_csp", "Ks", "0", " DNF", "-", "-", "0", "0", 
+"25",  "", "Le Samurai Motorsport", "vrc_formula_lithium_2023_csp", "Viktor Nightingale", "0", " DNF", "-", "-", "0", "0", 
+"26",  "", "STREAMER", "vrc_formula_lithium_2023_csp", "Moskito1116", "0", " DNF", "-", "-", "0", "0", 
+
+
+Race 2 laps
+'======================
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"novic"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.6420", "42.2240", "23.5260", "26.8920",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:26.9780", "36.8120", "23.3650", "26.8010",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.3970", "36.7990", "23.5400", "27.0580",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.4130", "36.5010", "23.8310", "27.0810",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.1140", "36.7140", "23.4450", "26.9550",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.7490", "36.5760", "23.6420", "27.5310",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.7390", "37.1900", "23.5270", "27.0220",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.4360", "36.8330", "23.5270", "27.0760",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.6970", "36.6890", "23.6620", "27.3460",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.4300", "36.8790", "23.8270", "27.7240",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.2200", "37.2260", "23.8010", "27.1930",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6080", "37.4060", "23.8280", "27.3740",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:28.1187", "37.3208", "23.6268", "27.1711"
+Best possible,,, "01:26.6670", "36.5010", "23.3650", "26.8010"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Josh Brookes"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:34.7600", "43.8300", "23.6610", "27.2690",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.9860", "37.2260", "23.6070", "27.1530",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.9870", "37.1180", "23.7020", "27.1670",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.8620", "36.9170", "23.7240", "27.2210",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.3990", "37.4050", "23.7100", "27.2840",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.2950", "37.2070", "23.6930", "27.3950",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5720", "37.3260", "23.9620", "27.2840",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.9330", "37.4840", "24.0530", "27.3960",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.6200", "37.5400", "23.7020", "27.3780",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.3790", "37.3230", "23.7420", "27.3140",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5530", "37.3970", "23.8230", "27.3330",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.9430", "38.5860", "24.1240", "28.2330",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:29.1074", "37.9466", "23.7919", "27.3689"
+Best possible,,, "01:27.6770", "36.9170", "23.6070", "27.1530"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Mateusz Wasik"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:33.8830", "43.2760", "23.4180", "27.1890",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.8590", "37.1670", "23.5970", "27.0950",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.0880", "37.0050", "23.6560", "27.4270",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.1210", "37.2890", "23.6390", "27.1930",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:27.8160", "37.0110", "23.5980", "27.2070",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0640", "37.3230", "24.2050", "27.5360",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.5330", "37.4400", "23.7910", "27.3020",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0950", "37.6110", "24.1650", "27.3190",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.4310", "37.3420", "23.7240", "27.3650",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.3620", "37.3050", "23.8130", "27.2440",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.9280", "37.4440", "23.8500", "27.6340",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:36.7350", "44.4360", "24.5520", "27.7470",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:29.5762", "38.3874", "23.8340", "27.3548"
+Best possible,,, "01:27.5180", "37.0050", "23.4180", "27.0950"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Miguel Soto"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:48.1300", "44.2570", "24.2550", "39.6180",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.5250", "37.5040", "23.7730", "31.2480",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.6190", "38.2700", "24.8720", "27.4770",  "F:ST - R:ST",     "3  (0s e.t. <>  0s gain) ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:28.7460", "37.2750", "23.8220", "27.6490",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1710", "37.4530", "23.8770", "27.8410",  "F:ST - R:ST",     "0 ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.4400", "38.0900", "23.8140", "27.5360",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.0020", "37.8820", "23.7510", "27.3690",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.3920", "38.1520", "24.1690", "28.0710",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:29.1030", "37.3390", "24.2230", "27.5410",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.0880", "38.8030", "24.5290", "27.7560",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.5290", "38.7340", "24.0610", "27.7340",  "F:ST - R:ST",     "0 ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.3120", "37.6660", "24.1060", "28.5400",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:31.5881", "38.4521", "24.1043", "29.0317"
+Best possible,,, "01:28.3950", "37.2750", "23.7510", "27.3690"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Neeun_JTS3"
+"1 ", vrc_formula_lithium_2023_csp, no,"0", "01:44.4590", "45.2530", "30.7760", "28.4300",  "F:ST - R:ST",     "0 ",  
+"2 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.7220", "37.8380", "24.4170", "28.4670",  "F:ST - R:ST",     "0 ",  
+"3 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.7220", "38.5360", "24.8540", "28.3320",  "F:ST - R:ST",     "0 ",  
+"4 ", vrc_formula_lithium_2023_csp, no,"0", "01:30.7280", "38.5550", "24.4890", "27.6840",  "F:ST - R:ST",     "0 ",  
+"5 ", vrc_formula_lithium_2023_csp, no,"0", "01:44.9650", "51.2350", "25.7260", "28.0040",  "F:ST - R:ST",     "2  (0s e.t. <>  0s gain) ",  
+"6 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.1030", "38.4810", "24.7320", "27.8900",  "F:ST - R:ST",     "0 ",  
+"7 ", vrc_formula_lithium_2023_csp, no,"0", "01:37.3280", "39.3640", "29.8480", "28.1160",  "F:ST - R:ST",     "0 ",  
+"8 ", vrc_formula_lithium_2023_csp, no,"0", "01:31.9830", "38.7430", "24.5480", "28.6920",  "F:ST - R:ST",     "0 ",  
+"9 ", vrc_formula_lithium_2023_csp, no,"0", "01:41.4660", "47.6270", "25.2270", "28.6120",  "F:ST - R:ST",     "0 ",  
+"10 ", vrc_formula_lithium_2023_csp, no,"0", "01:36.8210", "44.3470", "24.5480", "27.9260",  "F:ST - R:ST",     "0 ",  
+"11 ", vrc_formula_lithium_2023_csp, no,"0", "01:35.1410", "42.5680", "24.9610", "27.6120",  "F:ST - R:ST",     "2  (0s e.t. <>  0s gain) ",  
+"12 ", vrc_formula_lithium_2023_csp, no,"0", "01:32.6930", "39.7470", "24.6100", "28.3360",  "F:ST - R:ST",     "0 ",  
+Average,,,"01:35.7609", "41.8578", "25.7280", "28.1751"
+Best possible,,, "01:29.8670", "37.8380", "24.4170", "27.6120"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alfie Bevan"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Skyp Cooper"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Law Loki"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Shane Ross"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ali YARDIMCI"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nahteyue"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Tareek"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Cameron McIntyre"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"cndelta"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"toguapotobo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Genius"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Darkzi"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Nick Chin"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Diego Domingo"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"potatolad165"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"bright"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Alexander Sze"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Colin Kinzer"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ks"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Viktor Nightingale"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Moskito1116"
+No laps for this driver
+
+
+Race 2 best laps
+'======================
+'------------------------
+Overall top (20)
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "01:26.9780", ""
+"novic", "vrc_formula_lithium_2023_csp", "01:27.1140", "0.136"
+"novic", "vrc_formula_lithium_2023_csp", "01:27.3970", "0.419"
+"novic", "vrc_formula_lithium_2023_csp", "01:27.4130", "0.435"
+"novic", "vrc_formula_lithium_2023_csp", "01:27.4360", "0.458"
+"novic", "vrc_formula_lithium_2023_csp", "01:27.6970", "0.719"
+"novic", "vrc_formula_lithium_2023_csp", "01:27.7390", "0.761"
+"novic", "vrc_formula_lithium_2023_csp", "01:27.7490", "0.771"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.8160", "0.838"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.8590", "0.881"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.8620", "0.884"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.9860", "1.008"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.9870", "1.009"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.0880", "1.11"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.1210", "1.143"
+"novic", "vrc_formula_lithium_2023_csp", "01:28.2200", "1.242"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.2950", "1.317"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:28.3620", "1.384"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.3790", "1.401"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:28.3990", "1.421"
+
+
+'------------------------
+Per driver
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "01:26.9780", ""
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "01:27.8160", "0.838"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "01:27.8620", "0.884"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "01:28.7460", "1.768"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "01:30.7220", "3.744"
+
+
+Race 2 consistency
+'======================
+Driver, Vehicle, Consistency,
+"novic", "vrc_formula_lithium_2023_csp", "99.08%  0.8023",
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "99.08%  0.8047",
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "98.39%  1.4276",
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "98.29%  1.5056",
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "96.13%  3.5085",
+"Alfie Bevan", "vrc_formula_lithium_2023_csp", "-",
+"Skyp Cooper", "vrc_formula_lithium_2023_csp", "-",
+"Law Loki", "vrc_formula_lithium_2023_csp", "-",
+"Shane Ross", "vrc_formula_lithium_2023_csp", "-",
+"Ali YARDIMCI", "vrc_formula_lithium_2023_csp", "-",
+"Nahteyue", "vrc_formula_lithium_2023_csp", "-",
+"Tareek", "vrc_formula_lithium_2023_csp", "-",
+"Cameron McIntyre", "vrc_formula_lithium_2023_csp", "-",
+"cndelta", "vrc_formula_lithium_2023_csp", "-",
+"toguapotobo", "vrc_formula_lithium_2023_csp", "-",
+"Genius", "vrc_formula_lithium_2023_csp", "-",
+"Darkzi", "vrc_formula_lithium_2023_csp", "-",
+"Nick Chin", "vrc_formula_lithium_2023_csp", "-",
+"Diego Domingo", "vrc_formula_lithium_2023_csp", "-",
+"potatolad165", "vrc_formula_lithium_2023_csp", "-",
+"bright", "vrc_formula_lithium_2023_csp", "-",
+"Alexander Sze", "vrc_formula_lithium_2023_csp", "-",
+"Colin Kinzer", "vrc_formula_lithium_2023_csp", "-",
+"Ks", "vrc_formula_lithium_2023_csp", "-",
+"Viktor Nightingale", "vrc_formula_lithium_2023_csp", "-",
+"Moskito1116", "vrc_formula_lithium_2023_csp", "-",
+
+
+
+
+Race 2 sectors
+'======================
+'------------------------
+Sector 1
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "36.5010", "-"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "36.9170", "0.4160"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "37.0050", "0.5040"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "37.2750", "0.7740"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "37.8380", "1.3370"
+'------------------------
+Sector 2
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "23.3650", "-"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "23.4180", "0.0530"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "23.6070", "0.2420"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "23.7510", "0.3860"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "24.4170", "1.0520"
+'------------------------
+Sector 3
+'------------------------
+Driver, Vehicle, Time, Gap,
+"novic", "vrc_formula_lithium_2023_csp", "26.8010", "-"
+"Mateusz Wasik", "vrc_formula_lithium_2023_csp", "27.0950", "0.2940"
+"Josh Brookes", "vrc_formula_lithium_2023_csp", "27.1530", "0.3520"
+"Miguel Soto", "vrc_formula_lithium_2023_csp", "27.3690", "0.5680"
+"Neeun_JTS3", "vrc_formula_lithium_2023_csp", "27.6120", "0.8110"
+
+
+Race 2 incidents
+'======================
+Date, Incident, Worth reviewing
+"", "Miguel Soto reported contact with another vehicle Josh Brookes. Impact speed: 17.758562",
+"", "Neeun_JTS3 reported contact with environment. Impact speed: 19.482777",
+"", "Neeun_JTS3 reported contact with environment. Impact speed: 10.747026",
+"", "Josh Brookes reported contact with environment. Impact speed: 293.11035",
+"", "novic reported contact with another vehicle Josh Brookes. Impact speed: 20.85294",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 56.249176",
+"", "Mateusz Wasik reported contact with environment. Impact speed: 11.22641",
+"", "novic reported contact with another vehicle Miguel Soto. Impact speed: 37.35236",
+"", "Miguel Soto reported contact with another vehicle novic. Impact speed: 162.25594",
+"", "Miguel Soto reported contact with environment. Impact speed: 244.57999",
+
+Race 2 cuts
+'======================
+Date, Lap e.t., Lap, Driver, Cut Time, Time skipped
+"", "00:00", "3", "Miguel Soto", "", ""
+"", "00:00", "3", "Miguel Soto", "", ""
+"", "00:00", "3", "Miguel Soto", "", ""
+"", "00:00", "5", "Neeun_JTS3", "", ""
+"", "00:00", "5", "Neeun_JTS3", "", ""
+"", "00:00", "11", "Neeun_JTS3", "", ""
+"", "00:00", "11", "Neeun_JTS3", "", ""
+
+
+
+
+
+
+
+

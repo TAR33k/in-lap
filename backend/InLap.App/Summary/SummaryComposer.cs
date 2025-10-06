@@ -44,6 +44,17 @@ namespace InLap.App.Summary
                 dto.Sessions.Add(ss);
             }
 
+            var order = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase)
+            {
+                ["Practice"] = 0,
+                ["Qualify"] = 1,
+                ["Race1"] = 2,
+                ["Race2"] = 3
+            };
+            dto.Sessions = dto.Sessions
+                .OrderBy(s => order.TryGetValue(s.Type, out var o) ? o : 99)
+                .ToList();
+
             dto.Confidence = new ConfidenceInfo
             {
                 TopFinishers = ComputeConfidence(warnings, dto.Sessions.Any(x => x.TopFinishers.Count >= 3)),

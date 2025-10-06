@@ -18,6 +18,11 @@ namespace InLap.App.Parsing
 
             foreach (var block in sessions)
             {
+                if (string.IsNullOrWhiteSpace(weekend.Game) || string.IsNullOrWhiteSpace(weekend.Track) || !weekend.Date.HasValue)
+                {
+                    MetadataParser.Apply(block.Lines, weekend, warnings);
+                }
+
                 var session = new Session { Type = ToSessionType(block.Name) };
 
                 ResultsParser.ParseIntoSession(block.Lines, session, warnings);

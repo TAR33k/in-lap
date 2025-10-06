@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using InLap.Infrastructure.Persistence;
 using InLap.App.UseCases;
 
 namespace InLap.Api.Extensions
@@ -54,13 +53,32 @@ namespace InLap.Api.Extensions
             services.AddHttpClient<ILLMClient, OpenAIHttpClient>((sp, http) =>
             {
                 var cfg = sp.GetRequiredService<IConfiguration>();
-                var baseUrl = cfg["OPENAI_BASE_URL"] ?? "https://api.openai.com/v1";
-                var apiKey = cfg["OPENAI_API_KEY"];
-                http.BaseAddress = new Uri(baseUrl);
+                var rawBase = cfg["OPENAI_BASE_URL"] ?? "https://api.openai.com/v1";
+                var baseUrl = rawBase?.Trim();
+
+                if (!string.IsNullOrWhiteSpace(baseUrl) && baseUrl.StartsWith("https://api.openai.com", StringComparison.OrdinalIgnoreCase)
+                    && !baseUrl.Contains("/v1", StringComparison.Ordinal))
+                {
+                    baseUrl = baseUrl.TrimEnd('/') + "/v1";
+                }
+
+                if (!string.IsNullOrWhiteSpace(baseUrl) && !baseUrl.EndsWith('/'))
+                {
+                    baseUrl += "/";
+                }
+
+                var apiKeyRaw = cfg["OPENAI_API_KEY"];
+                var apiKey = apiKeyRaw?.Trim().Trim('\"', '\'');
+                http.BaseAddress = new Uri(baseUrl!, UriKind.Absolute);
                 if (!string.IsNullOrWhiteSpace(apiKey))
                 {
                     http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
                 }
+                else
+                {
+                    Console.WriteLine("OPENAI_API_KEY is not set or empty (after trimming). Requests will fail with 401.");
+                }
+
                 http.Timeout = TimeSpan.FromSeconds(30);
             });
 

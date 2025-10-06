@@ -10,7 +10,7 @@ namespace InLap.App.Parsing
     public static class MetadataParser
     {
         private static readonly Regex KeyValue = new(
-            pattern: "^(?<key>[A-Za-z ]+):\\s*\\\"?(?<value>.*?)\\\"?$",
+            pattern: "^(?<key>[A-Za-z ]+):\\s*,?\\s*\\\"?(?<value>.*?)\\\"?$",
             options: RegexOptions.Compiled);
 
         public static void Apply(List<string> metadataLines, RaceWeekend weekend, ParseWarnings warnings)
@@ -23,17 +23,22 @@ namespace InLap.App.Parsing
 
                 var key = m.Groups["key"].Value.Trim();
                 var value = m.Groups["value"].Value.Trim();
+                if (value.StartsWith(","))
+                    value = value.TrimStart(',', ' ');
+                value = value.Trim('"');
 
                 switch (key.ToLowerInvariant())
                 {
                     case "game":
-                        weekend.Game = value.Trim('"');
+                        if (string.IsNullOrWhiteSpace(weekend.Game))
+                            weekend.Game = value;
                         break;
                     case "track":
-                        weekend.Track = value.Trim('"');
+                        if (string.IsNullOrWhiteSpace(weekend.Track))
+                            weekend.Track = value;
                         break;
                     case "date":
-                        if (DateTime.TryParse(value, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal, out var dt))
+                        if (!weekend.Date.HasValue && DateTime.TryParse(value, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal, out var dt))
                         {
                             weekend.Date = dt;
                         }

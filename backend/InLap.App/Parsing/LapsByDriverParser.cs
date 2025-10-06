@@ -28,7 +28,7 @@ namespace InLap.App.Parsing
                         continue;
                     }
 
-                    currentDriver = line;
+                    currentDriver = line.Trim('"');
                     if (!session.LapsByDriver.ContainsKey(currentDriver))
                         session.LapsByDriver[currentDriver] = new List<LapRecord>();
                     continue;
@@ -44,6 +44,14 @@ namespace InLap.App.Parsing
                         continue;
                     }
 
+                    int cutsVal = 0;
+                    if (cells.Length > 9)
+                    {
+                        var cutsCell = cells[9];
+                        var m = Regex.Match(cutsCell, @"^(?<n>\d+)");
+                        if (m.Success && int.TryParse(m.Groups["n"].Value, out var n)) cutsVal = n;
+                    }
+
                     var rec = new LapRecord
                     {
                         Lap = lapNo,
@@ -52,7 +60,7 @@ namespace InLap.App.Parsing
                         Sector2 = cells.Length > 6 ? cells[6] : null,
                         Sector3 = cells.Length > 7 ? cells[7] : null,
                         Compound = cells.Length > 8 ? cells[8] : null,
-                        Cuts = (cells.Length > 9 && int.TryParse(cells[9], out var cuts)) ? cuts : 0,
+                        Cuts = cutsVal,
                         Pit = cells.Length > 2 && (cells[2].Equals("yes", StringComparison.OrdinalIgnoreCase) || cells[2] == "1")
                     };
 

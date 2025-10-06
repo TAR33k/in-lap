@@ -1,6 +1,22 @@
 using InLap.Api.Extensions;
+using System.IO;
+using DotNetEnv;
 
 var builder = WebApplication.CreateBuilder(args);
+
+try
+{
+    var root = Path.GetFullPath(Path.Combine(builder.Environment.ContentRootPath, "..", ".."));
+    var envPath = Path.Combine(root, ".env");
+    if (File.Exists(envPath))
+    {
+        Env.Load(envPath);
+    }
+}
+catch
+{
+    Console.WriteLine("Failed to load .env file.");
+}
 
 builder.Configuration.AddEnvironmentVariables();
 

@@ -9,7 +9,7 @@ namespace InLap.App.Parsing
     public static class TopLevelSplitter
     {
         private static readonly Regex SessionHeader = new(
-            pattern: @"^(Practice|Qualify|Race\s*1|Race\s*2)\b.*",
+            pattern: @"^(Practice|Qualify|Race\s*1|Race\s*2)\s*$",
             options: RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
         public static (List<string> metadata, List<NamedBlock> sessions, List<string> others) Split(List<string> lines)

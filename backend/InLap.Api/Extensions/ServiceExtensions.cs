@@ -3,10 +3,14 @@ using InLap.Infrastructure.Configuration;
 using InLap.Infrastructure.Persistence;
 using InLap.Infrastructure.FileStorage;
 using InLap.App.Parsing;
+using InLap.App.Summary;
+using InLap.Infrastructure.LLM;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using InLap.Infrastructure.Persistence;
+using InLap.App.UseCases;
 
 namespace InLap.Api.Extensions
 {
@@ -42,6 +46,23 @@ namespace InLap.Api.Extensions
 
             services.AddScoped<IFileStore, LocalFileStore>();
             services.AddScoped<IFileParsingService, FileParsingService>();
+            services.AddScoped<ISummaryService, SummaryComposer>();
+            services.AddScoped<IReportRepository, ReportRepository>();
+            services.AddSingleton<ResponseCleaner>();
+            services.AddScoped<ProcessUploadUseCase>();
+
+            services.AddHttpClient<ILLMClient, OpenAIHttpClient>((sp, http) =>
+            {
+                var cfg = sp.GetRequiredService<IConfiguration>();
+                var baseUrl = cfg["OPENAI_BASE_URL"] ?? "https://api.openai.com/v1";
+                var apiKey = cfg["OPENAI_API_KEY"];
+                http.BaseAddress = new Uri(baseUrl);
+                if (!string.IsNullOrWhiteSpace(apiKey))
+                {
+                    http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
+                }
+                http.Timeout = TimeSpan.FromSeconds(30);
+            });
 
             return services;
         }

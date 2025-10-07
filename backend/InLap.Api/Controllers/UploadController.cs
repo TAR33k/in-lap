@@ -22,8 +22,11 @@ namespace InLap.Api.Controllers
 
         [HttpPost]
         [Consumes("multipart/form-data")]
+        [RequestSizeLimit(1_000_000)]
+        [RequestFormLimits(MultipartBodyLengthLimit = 1_000_000)]
         [ProducesResponseType(typeof(UploadResponseDto), StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status413PayloadTooLarge)]
         public async Task<ActionResult<UploadResponseDto>> Upload(IFormFile file, CancellationToken ct)
         {
             if (file == null || file.Length == 0)

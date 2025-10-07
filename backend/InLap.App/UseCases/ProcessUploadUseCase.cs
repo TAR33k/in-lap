@@ -65,11 +65,11 @@ namespace InLap.App.UseCases
                 "Output plain text only, with these parts in this order:",
                 "1) HEADLINE — punchy, 10–15 words, action-oriented.",
                 "2) LEAD — 2–3 energetic sentences that set the story.",
-                "3) BODY — 5–7 short paragraphs (130–230 words total) that highlight winners, best laps, and the biggest incidents (use drivers and exact speeds). Mention Practice only briefly if meaningful, else start with Qualify to set the grid and tone.",
+                "3) BODY — 5–7 short paragraphs (130–230 words total) that highlight winners, best laps, and the biggest incidents (use drivers and exact speeds). Start with Qualify to set the grid and tone, then Race 1 and Race 2.",
                 "4) QUICK FACTS — 4–8 bullet points showing exact values from summary.",
 
                 "Style: lively, engaging, and fun but accurate. Keep it respectful. Vary sentence length. Use strong verbs. Avoid clichés and filler.",
-                "Mention notable incidents by naming drivers and showing their impact speeds where available. Impact with environment means impact with a wall.",
+                "Mention notable incidents by naming drivers and showing their impact speeds (rounded numbers with km/h) where available. Impact with environment should be written as impact with a wall or hit the wall.",
 
                 "Formatting: Keep clear section breaks and bullets exactly as specified.",
                 "Use active voice and third person. Do not add quotes unless summary contains them. Do not output JSON, code fences, or metadata.",

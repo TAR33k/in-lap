@@ -13,22 +13,31 @@ namespace InLap.App.Summary
             if (string.IsNullOrWhiteSpace(llmText)) return string.Empty;
 
             var sanitized = Regex.Replace(llmText, "[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]", string.Empty);
-            sanitized = sanitized.Replace("\r\n", "\n").Replace("\r", "\n");
-            sanitized = Regex.Replace(sanitized, @"(?im)^\s*HEADLINE\s*(?:—|-|:)?\s*$", "HEADLINE —", RegexOptions.None);
-            sanitized = Regex.Replace(sanitized, @"(?im)^\s*LEAD\s*(?:—|-|:)?\s*$", "LEAD —", RegexOptions.None);
-            sanitized = Regex.Replace(sanitized, @"(?im)^\s*BODY\s*(?:—|-|:)?\s*$", "BODY —", RegexOptions.None);
-            sanitized = Regex.Replace(sanitized, @"(?im)^\s*QUICK FACTS\s*(?:—|-|:)?\s*$", "QUICK FACTS —", RegexOptions.None);
-
-            sanitized = Regex.Replace(sanitized, @"(?m)^HEADLINE —\s*", "HEADLINE —\n");
-            sanitized = Regex.Replace(sanitized, @"(?m)^LEAD —\s*", "LEAD —\n");
-            sanitized = Regex.Replace(sanitized, @"(?m)^BODY —\s*", "BODY —\n");
-            sanitized = Regex.Replace(sanitized, @"(?m)^QUICK FACTS —\s*", "QUICK FACTS —\n");
+            sanitized = Regex.Replace(sanitized, @"(?im)^\s*HEADLINE\s*(?:—|-|:)?\s*(.*)$", m =>
+            {
+                var tail = m.Groups[1].Value.Trim();
+                return tail.Length > 0 ? $"HEADLINE —\n{tail}" : "HEADLINE —";
+            });
+            sanitized = Regex.Replace(sanitized, @"(?im)^\s*LEAD\s*(?:—|-|:)?\s*(.*)$", m =>
+            {
+                var tail = m.Groups[1].Value.Trim();
+                return tail.Length > 0 ? $"LEAD —\n{tail}" : "LEAD —";
+            });
+            sanitized = Regex.Replace(sanitized, @"(?im)^\s*BODY\s*(?:—|-|:)?\s*(.*)$", m =>
+            {
+                var tail = m.Groups[1].Value.Trim();
+                return tail.Length > 0 ? $"BODY —\n{tail}" : "BODY —";
+            });
+            sanitized = Regex.Replace(sanitized, @"(?im)^\s*QUICK FACTS\s*(?:—|-|:)?\s*(.*)$", m =>
+            {
+                var tail = m.Groups[1].Value.Trim();
+                return tail.Length > 0 ? $"QUICK FACTS —\n{tail}" : "QUICK FACTS —";
+            });
 
             var headline = ExtractSection(sanitized, "HEADLINE");
             var lead = ExtractSection(sanitized, "LEAD");
             var body = ExtractSection(sanitized, "BODY");
             var facts = ExtractSection(sanitized, "QUICK FACTS");
-
             var bodyParas = SplitParagraphs(body);
             var qualify = bodyParas.Where(p => Regex.IsMatch(p, @"\bQualif", RegexOptions.IgnoreCase)).ToList();
             var race1 = bodyParas.Where(p => Regex.IsMatch(p, @"\bRace\s*1\b|\bRace1\b", RegexOptions.IgnoreCase)).ToList();
@@ -43,17 +52,19 @@ namespace InLap.App.Summary
             }
             var normalizedFacts = string.Join("\n", factLines);
 
-            var result = string.Join("\n\n", new[]
-            {
-                headline.Trim(),
-                lead.Trim(),
-                "BODY —\n" + reorderedBody.Trim(),
-                "QUICK FACTS —\n" + normalizedFacts.Trim()
-            }.Where(s => !string.IsNullOrWhiteSpace(s)));
+            var parts = new List<string>();
+            if (!string.IsNullOrWhiteSpace(headline)) parts.Add(headline.Trim());
+            if (!string.IsNullOrWhiteSpace(lead)) parts.Add(lead.Trim());
+            if (!string.IsNullOrWhiteSpace(reorderedBody)) parts.Add("BODY —\n" + reorderedBody.Trim());
+            if (!string.IsNullOrWhiteSpace(normalizedFacts)) parts.Add("QUICK FACTS —\n" + normalizedFacts.Trim());
+
+            var result = string.Join("\n\n", parts);
 
             var finalText = result.Trim();
+            finalText = StripTrailingHeaders(finalText).Trim();
+
             if (string.IsNullOrWhiteSpace(finalText) || finalText.Equals("BODY —\n\nQUICK FACTS —", StringComparison.Ordinal))
-                return sanitized.Trim();
+                return StripTrailingHeaders(sanitized).Trim();
 
             return finalText;
         }
@@ -72,6 +83,14 @@ namespace InLap.App.Summary
             var content = Regex.Replace(section, @"^BODY\s+—\s*\n", string.Empty, RegexOptions.IgnoreCase);
             var parts = Regex.Split(content.Trim(), @"\n\s*\n").Select(p => p.Trim()).Where(p => p.Length > 0).ToList();
             return parts;
+        }
+
+        private static string StripTrailingHeaders(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text)) return text ?? string.Empty;
+            var cleaned = Regex.Replace(text, @"(?mis)(?:\n\s*)*(?:^|\n)(?:HEADLINE|LEAD|BODY|QUICK FACTS)\s+—\s*\z", string.Empty);
+            cleaned = Regex.Replace(cleaned, @"\n{3,}", "\n\n");
+            return cleaned;
         }
     }
 }

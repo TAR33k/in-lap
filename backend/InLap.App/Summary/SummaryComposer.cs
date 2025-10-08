@@ -30,7 +30,9 @@ namespace InLap.App.Summary
                 {
                     Type = MapSessionType(s.Type),
                     Metadata = s.Metadata.ToDictionary(kv => kv.Key, kv => (object)kv.Value),
-                    TopFinishers = s.TopFinishers.Select(tf => new TopFinisherSummary
+                    TopFinishers = s.TopFinishers
+                        .OrderBy(tf => tf.Pos)
+                        .Select(tf => new TopFinisherSummary
                     {
                         Pos = tf.Pos,
                         Driver = tf.Driver,
@@ -68,8 +70,8 @@ namespace InLap.App.Summary
         {
             SessionType.Practice => "Practice",
             SessionType.Qualify => "Qualify",
-            SessionType.Race2 => "Race2",
             SessionType.Race1 => "Race1",
+            SessionType.Race2 => "Race2",
             _ => "Unknown"
         };
 

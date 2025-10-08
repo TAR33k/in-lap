@@ -2,11 +2,33 @@ import { Component, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ApiService, ReportDto } from './api.service';
 import { Subscription } from 'rxjs';
+import { trigger, transition, style, animate, state } from '@angular/animations';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule],
+  animations: [
+    trigger('fadeSlide', [
+      transition(':enter', [
+        style({ opacity: 0, transform: 'translateY(8px)' }),
+        animate('260ms 40ms ease-out', style({ opacity: 1, transform: 'translateY(0)' }))
+      ]),
+      transition(':leave', [
+        animate('200ms ease-in', style({ opacity: 0, transform: 'translateY(-6px)' }))
+      ])
+    ]),
+    trigger('swapStates', [
+      state('idle', style({ opacity: 1 })),
+      state('loading', style({ opacity: 1 })),
+      state('done', style({ opacity: 1 })),
+      state('error', style({ opacity: 1 })),
+      transition('idle => loading, loading => done, error => idle, * => error', [
+        style({ opacity: 0, transform: 'scale(0.98)' }),
+        animate('220ms ease-out', style({ opacity: 1, transform: 'scale(1)' }))
+      ])
+    ])
+  ],
   template: `
   <div class="page">
     <div class="bg"></div>
@@ -14,7 +36,7 @@ import { Subscription } from 'rxjs';
 
     <header class="header container">
       <div class="brand">
-        <h1>In-Lap – AI Motorsport Journalist</h1>
+        <h1><span class="brand-in">In</span><span class="brand-lap">Lap</span> – AI Motorsport Journalist</h1>
       </div>
       <nav class="links">
         <a href="https://github.com/TAR33k/in-lap" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
@@ -25,8 +47,8 @@ import { Subscription } from 'rxjs';
       </nav>
     </header>
 
-    <main class="container main">
-      <section class="panel upload" *ngIf="state === 'idle' || state === 'error'">
+    <main class="container main" [@swapStates]="state">
+      <section class="panel upload" *ngIf="state === 'idle' || state === 'error'" @fadeSlide>
         <div class="upload-inner" (drop)="onDrop($event)" (dragover)="onDragOver($event)">
           <div class="upload-icon">📄</div>
           <div class="upload-title">Upload race weekend CSV</div>
@@ -47,37 +69,71 @@ import { Subscription } from 'rxjs';
         </div>
       </section>
 
-      <section class="panel loading" *ngIf="state === 'loading'">
+      <section class="panel loading" *ngIf="state === 'loading'" @fadeSlide>
         <div class="loader"><div class="bar" [style.width.%]="progress"></div></div>
-        <div class="loading-text">Generating clean motorsport article… {{ progress }}%</div>
+        <div class="loading-text">Generating motorsport article… {{ progress }}%</div>
+        <div class="speedlines" aria-hidden="true">
+          <div class="layer l1"></div>
+          <div class="layer l2"></div>
+          <div class="layer l3"></div>
+          <div class="glow"></div>
+          <div class="sparks"></div>
+        </div>
       </section>
 
-      <section class="panel result" *ngIf="state === 'done' && report">
-        <div class="headline" *ngIf="articleLines[0] as head">{{ head.replace('HEADLINE —','').trim() }}</div>
-
-        <div class="highlights" *ngIf="highlights as h">
-          <div class="card">
-            <div class="row">
-              <div class="kv"><span>Track</span><strong>{{ h.track || '—' }}</strong></div>
-              <div class="kv"><span>Game</span><strong>{{ h.game || '—' }}</strong></div>
-              <div class="kv"><span>Date</span><strong>{{ h.date || '—' }}</strong></div>
+      <section class="panel result" *ngIf="state === 'done' && report" @fadeSlide>
+        <div class="result-grid">
+          <article class="article">
+            <h2 class="title" *ngIf="article.title">{{ article.title }}</h2>
+            <p class="lead" *ngIf="article.lead">{{ article.lead }}</p>
+            <div class="divider" aria-hidden="true"></div>
+            <div class="body">
+              <p *ngFor="let p of article.body">{{ p }}</p>
             </div>
-            <div class="row">
-              <div class="kv"><span>Pole</span><strong>{{ h.pole || '—' }}</strong></div>
-              <div class="kv"><span>Race 1</span><strong>{{ h.race1 || '—' }}</strong></div>
-              <div class="kv"><span>Race 2</span><strong>{{ h.race2 || '—' }}</strong></div>
+            <div class="divider faint" *ngIf="article.quickFacts?.length" aria-hidden="true"></div>
+            <section class="quickfacts" *ngIf="article.quickFacts?.length">
+              <h3>Quick facts</h3>
+              <ul>
+                <li *ngFor="let q of article.quickFacts">{{ q }}</li>
+              </ul>
+            </section>
+
+            <section class="race-results" *ngIf="raceResults?.length">
+              <div class="race" *ngFor="let race of raceResults">
+                <h3>{{ race.label }}</h3>
+                <div class="table">
+                  <div class="thead">
+                    <div>Pos</div>
+                    <div>Driver</div>
+                    <div>Gap</div>
+                  </div>
+                  <div class="tbody">
+                    <div class="row" *ngFor="let row of race.rows">
+                      <div class="pos">{{ row.pos }}</div>
+                      <div class="driver">{{ row.driver }}</div>
+                      <div class="gap">{{ row.gap || '—' }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </article>
+
+          <aside class="side" *ngIf="highlights as h">
+            <div class="side-card">
+              <h4>Weekend summary</h4>
+              <div class="kv" *ngIf="h.track"><span>Track</span><strong>{{ h.track }}</strong></div>
+              <div class="kv" *ngIf="h.game"><span>Game</span><strong>{{ h.game }}</strong></div>
+              <div class="kv" *ngIf="h.date"><span>Date</span><strong>{{ h.date }}</strong></div>
+              <div class="kv" *ngIf="h.pole"><span>Pole</span><strong>{{ h.pole }}</strong></div>
+              <div class="kv" *ngIf="h.race1"><span>Race 1</span><strong>{{ h.race1 }}</strong></div>
+              <div class="kv" *ngIf="h.race2"><span>Race 2</span><strong>{{ h.race2 }}</strong></div>
             </div>
-          </div>
-        </div>
-
-        <article class="article">
-          <div *ngFor="let line of articleLines">
-            {{ line }}
-          </div>
-        </article>
-
-        <div class="actions">
-          <button class="btn" (click)="reset()">Generate Another</button>
+            <div class="side-actions">
+              <button class="btn" (click)="copyArticle()">{{ copied ? 'Copied!' : 'Copy Article' }}</button>
+              <button class="btn accent" (click)="reset()">Generate Another</button>
+            </div>
+          </aside>
         </div>
       </section>
     </main>
@@ -95,6 +151,9 @@ export class AppComponent implements OnDestroy {
   selectedFile: File | null = null;
   report: ReportDto | null = null;
   articleLines: string[] = [];
+  article: { title: string; lead: string; body: string[]; quickFacts: string[] } = { title: '', lead: '', body: [], quickFacts: [] };
+  raceResults: { label: string; rows: { pos: number; driver: string; gap?: string }[] }[] = [];
+  copied = false;
   highlights: {
     track?: string;
     game?: string;
@@ -120,6 +179,7 @@ export class AppComponent implements OnDestroy {
     this.selectedFile = null;
     this.report = null;
     this.articleLines = [];
+    this.article = { title: '', lead: '', body: [], quickFacts: [] };
     this.errorText = '';
     this.progress = 0;
   }
@@ -186,7 +246,94 @@ export class AppComponent implements OnDestroy {
 
   private prepareResult(r: ReportDto) {
     this.articleLines = (r.article || '').split(/\n+/).filter(Boolean);
+    this.article = this.parseArticle(r.article || '');
     this.highlights = this.computeHighlights(r.summaryJson);
+    this.raceResults = this.computeRaceResults(r.summaryJson);
+  }
+
+  private parseArticle(raw: string): { title: string; lead: string; body: string[]; quickFacts: string[] } {
+    const lines = raw.split(/\n+/).map(l => l.trim()).filter(Boolean);
+    let title = '';
+    let lead = '';
+    const quickFacts: string[] = [];
+    const content: string[] = [];
+
+    const strip = (s: string, key: string) => s.replace(new RegExp(`^${key}\\s*[—:-]\\s*`, 'i'), '').trim();
+    const isTagOnly = (s: string) => /^(headline|lead|body|quick\s*facts)\s*[—:-]?\s*$/i.test(s);
+
+    let mode: 'body' | 'facts' = 'body';
+    const norm = (s: string) => s.replace(/\s+/g, ' ').trim().toLowerCase();
+    for (const l of lines) {
+      if (isTagOnly(l)) {
+        if (/^quick\s*facts/i.test(l)) mode = 'facts'; else if (/^body/i.test(l)) mode = 'body';
+        continue;
+      }
+      if (/^headline\b/i.test(l)) { const t = strip(l, 'headline'); if (t) title = t; continue; }
+      if (/^lead\b/i.test(l)) { const ld = strip(l, 'lead'); if (ld) lead = ld; continue; }
+      if (/^body\b/i.test(l)) { mode = 'body'; continue; }
+      if (/^quick\s+facts\b/i.test(l)) { mode = 'facts'; continue; }
+      if (mode === 'facts') {
+        const fact = l.replace(/^[−\-•\s]+/, '').trim();
+        if (fact) quickFacts.push(fact);
+      } else {
+        if (l) content.push(l);
+      }
+    }
+    if (!title && content.length) { title = content[0]; }
+    if (!lead && content.length > 1) { lead = content[1]; }
+    if (lead && title && norm(lead) === norm(title)) { lead = ''; }
+    const body = content.filter(l => norm(l) !== norm(title) && (lead ? norm(l) !== norm(lead) : true));
+
+    return { title, lead, body, quickFacts };
+  }
+
+  copyArticle() {
+    const text = this.buildArticleText();
+    if (navigator?.clipboard?.writeText) {
+      navigator.clipboard.writeText(text).then(() => {
+        this.copied = true;
+        setTimeout(() => this.copied = false, 1500);
+      }).catch(() => { });
+    }
+  }
+
+  private buildArticleText(): string {
+    const parts: string[] = [];
+    if (this.article.title) parts.push(this.article.title);
+    if (this.article.lead) parts.push(this.article.lead);
+    if (this.article.body?.length) parts.push(...this.article.body);
+    if (this.article.quickFacts?.length) {
+      parts.push('Quick facts');
+      for (const q of this.article.quickFacts) parts.push(`- ${q}`);
+    }
+    if (this.raceResults?.length) {
+      for (const race of this.raceResults) {
+        parts.push(race.label);
+        parts.push('Pos  Driver  Gap');
+        for (const row of race.rows) {
+          parts.push(`${row.pos}  ${row.driver}  ${row.gap || '—'}`);
+        }
+      }
+    }
+    return parts.join('\n');
+  }
+
+  private computeRaceResults(summaryJson: string): { label: string; rows: { pos: number; driver: string; gap?: string }[] }[] {
+    try {
+      const s = JSON.parse(summaryJson);
+      const sessions = (s.sessions as any[]) || [];
+      const collect = (type: string, label: string) => {
+        const ss = sessions.find(x => (x.type || x.Type) === type);
+        const arr = (ss?.results || ss?.topFinishers || []) as any[];
+        const rows = arr
+          .map((r: any) => ({ pos: Number(r.pos ?? r.position ?? r.Place), driver: r.driver ?? r.Driver ?? r.name, gap: r.gap ?? r.Gap }))
+          .filter(x => Number.isFinite(x.pos) && x.driver);
+        return rows.length ? { label, rows } : null;
+      };
+      return [collect('Race1', 'Race 1 Top 10'), collect('Race2', 'Race 2 Top 10')].filter(Boolean) as any;
+    } catch {
+      return [];
+    }
   }
 
   private computeHighlights(summaryJson: string) {
@@ -201,9 +348,9 @@ export class AppComponent implements OnDestroy {
         track: weekend.track,
         game: weekend.game,
         date: weekend.date,
-        pole: pole ?? '—',
-        race1: race1 ?? '—',
-        race2: race2 ?? '—',
+        pole: pole,
+        race1: race1,
+        race2: race2,
       };
     } catch {
       return {};
